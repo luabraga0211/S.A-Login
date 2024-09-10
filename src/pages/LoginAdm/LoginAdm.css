@@ -1,31 +1,8 @@
-.top-line {
-    height: 80px; /* Ajuste a altura conforme necessário */
-    top: 0;
-    left: 0;
-    background-color: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:fixed
-}
-
-.top-button {
-    background-color: #5f5e5e;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 10px;
-}
-
 .container {
     width: 450px;
-    margin: 120px auto 20px; /* Adicione margem para afastar do topo */
     background-color: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(5, 4, 4, 0.2);
+    border: 2px sold rgba(5, 4, 4, 0.2);
     padding: 40px; 
     border-radius: 10px;
 }
@@ -118,20 +95,12 @@
 .signup-link p a:hover {
     text-decoration: underline;
   }
-
-
-.logo img {
-  width: 100px;
-  margin-left: 5px;
-}
-.logo {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+  .signup-link p span {
+    color: rgb(255, 255, 255); /* Cor do link */
+    text-decoration: underline; /* Adiciona sublinhado */
+    cursor: pointer; /* Altera o cursor para o estilo de ponteiro */
 }
 
-h1 { 
-    font-size: 60px;
-    font-weight: bold;
-
+.signup-link p span:hover {
+    text-decoration: none; /* Remove o sublinhado quando o mouse passa por cima */
 }

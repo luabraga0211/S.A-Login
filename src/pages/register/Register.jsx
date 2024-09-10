@@ -4,8 +4,8 @@ import { useState } from "react";
 
 import './register.css';
 
-function Gotologin() {
-    window.location.href = '/';
+function Gotologinadm() {
+    window.location.href = '/LoginAdm';
 }
 
 function Gotohome() {
@@ -14,6 +14,7 @@ function Gotohome() {
 
 const Register = () => {
 
+    const [id, setId] = useState("");
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
@@ -30,27 +31,27 @@ const Register = () => {
     <div className="container">
         <form onSubmit={handleSubmit}>
             <h1>ATSoluctions</h1>
+            <h2>Registro de Usuario</h2>
+            
             <div className="input-campo">
-            <input type="email" placeholder="Coloque o seu Email" 
+            <input type="id" placeholder="Coloque o id para seu usuario"
+            onChange={(e) => setId(e.target.value)} />
+            </div>
+            <div className="input-campo">
+            <input type="email" placeholder="Coloque o Email do usuario" 
             onChange={(e) => setUsername(e.target.value)} />
             <FaUser className="icon" />
             </div>
             
             <div className="input-campo">
-            <input type="password" placeholder="Coloque sua Senha"
+            <input type="password" placeholder="Coloque a Senha para esse usuario utilizar"
             onChange={(e) => setPassword(e.target.value)} />
             <FaLock className="icon" />
             </div>
 
-            <div className="input-campo">
-            <input type="password" placeholder="Coloque sua Senha novamente"
-            onChange={(e) => setPassword(e.target.value)} />
-            <FaLock className="icon" />
-            </div>
-
-            <button onClick={Gotohome}>Criar Conta</button>
+            <button onClick={Gotohome}>Criar login de usuário</button>
             <div className="signup-link">
-            <p>Já tem uma conta? <span onClick={Gotologin}>Logar</span></p>
+            <p>Voltar a tela inicial sem criar usuario? <span onClick={Gotohome}>Voltar</span></p>
             </div>
         </form>
     </div>

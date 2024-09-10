@@ -1,19 +1,21 @@
 import { FaUser, FaLock } from "react-icons/fa";
 import { useState } from "react";
-import './login.css';
+import './loginadm.css';
 
-function GotoLoginAdm() {
-    window.location.href = '/LoginAdm';
+function GotoLogin() {
+    window.location.href = '/';
 }
 
 function Gotohome() {
     window.location.href = '/Home'
 }
 
-const Login = () => {
+const LoginAdm = () => {
 
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
+    const [id, setId] = useState("");
+
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -27,7 +29,10 @@ const Login = () => {
         <div className="container">
             <form onSubmit={handleSubmit}>
                 <h1>ATSoluctions</h1>
-                <h2>Funcionario</h2> 
+                <h2>ADM</h2>
+                <div className="input-campo">
+                    <input type="id" placeholder="Coloque o seu ID" onChange={(e) => setId(e.target.value)} />
+                </div>
                 <div className="input-campo">
                     <input type="email" placeholder="Coloque o seu Email" onChange={(e) => setUsername(e.target.value)} />
                     <FaUser className="icon" />
@@ -47,11 +52,11 @@ const Login = () => {
 
                 <button onClick={Gotohome}>Entrar</button>
                 <div className="signup-link">
-                    <p>Tem conta de Administrador? <span onClick={GotoLoginAdm}>Entrar</span></p>
+                    <p>Quer logar como Visitante? <span onClick={GotoLogin}>Login</span></p>
                 </div>
             </form>
         </div>
     );
 }
 
-export default Login;
+export default LoginAdm;
