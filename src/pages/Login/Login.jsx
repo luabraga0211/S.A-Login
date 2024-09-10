@@ -7,7 +7,7 @@ function GotoLoginAdm() {
 }
 
 function Gotohome() {
-    window.location.href = '/Home'
+    window.location.href = '/'
 }
 
 const Login = () => {

@@ -14,6 +14,14 @@ function Gotoview() {
     window.location.href = '/ViewUsers';
 }
 
+function Gotologin() {
+    window.location.href = '/Login';
+}
+
+
+
+
+
 const Home = () => {
     return (
         <div>
@@ -21,6 +29,7 @@ const Home = () => {
                 <button className="top-button" onClick={Gotoregister}>Registrar Usuários</button>
                 <button className="top-button" onClick={Gotoabout}>Sobre Nós</button>
                 <button className="top-button" onClick={Gotoview}>Visualizar Usuários</button>
+                <button className="top-button" onClick={Gotologin}>Fazer Login</button>
             </div>
             <div className="container">
                 <div className="logo">
@@ -29,8 +38,9 @@ const Home = () => {
                     </Link>
                 </div>
                 <div className="content">
-                    <h1>ATSoluctions</h1>
-                    <p>Projeto S.A.</p>
+                    <h1>ATSoluctions</h1> 
+                    <br />
+                    <p>Registro de entrada e saída de Usuarios</p>
                 </div>
             </div>
         </div>

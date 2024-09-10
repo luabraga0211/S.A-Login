@@ -135,3 +135,11 @@ h1 {
     font-weight: bold;
 
 }
+.project-title {
+    text-align: center;
+}
+
+.project-description {
+    text-align: justify;
+    padding: 20px; /* Adicione o espaçamento desejado entre os parágrafos */
+}

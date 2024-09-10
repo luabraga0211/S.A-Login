@@ -4,12 +4,9 @@ import { useState } from "react";
 
 import './register.css';
 
-function Gotologinadm() {
-    window.location.href = '/LoginAdm';
-}
 
 function Gotohome() {
-    window.location.href = '/Home'
+    window.location.href = '/'
 }
 
 const Register = () => {

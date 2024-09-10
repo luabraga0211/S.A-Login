@@ -3,11 +3,11 @@ import { useState } from "react";
 import './loginadm.css';
 
 function GotoLogin() {
-    window.location.href = '/';
+    window.location.href = '/Login';
 }
 
 function Gotohome() {
-    window.location.href = '/Home'
+    window.location.href = '/'
 }
 
 const LoginAdm = () => {

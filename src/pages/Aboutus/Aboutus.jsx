@@ -1,13 +1,13 @@
 import './aboutus.css';
 import logo from './logo.png';
-import { Link } from 'react-router-dom'; // Certifique-se de importar o Link do react-router-dom
+import { Link } from 'react-router-dom';
 
 function Gotoregister() {
     window.location.href = '/Register';
 }
 
 function Gotohome() {
-    window.location.href = '/Home';
+    window.location.href = '/';
 }
 
 function Gotoview() {
@@ -30,7 +30,15 @@ const Aboutus = () => {
                 </div>
                 <div className="content">
                     <h1>ATSoluctions</h1>
-                    <p>Projeto S.A.</p>
+                    <br />
+                    <p className="project-title">Projeto S.A.</p>
+                    <br />
+                    <p className="project-description">
+                        Somos um grupo de estudantes responsáveis pela produção de um projeto para uma empresa que estava com dificuldades no controle de entrada e saída da sua empresa.
+                        <br />
+                        <br />Nosso grupo é formado por: Luã Braga, Vitor Soligo, Lucas Rodrigues, Felipe Pontes e Victor Coelho <br />
+
+                    </p>
                 </div>
             </div>
         </div>

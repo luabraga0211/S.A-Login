@@ -10,8 +10,8 @@ function Gotoabout() {
     window.location.href = '/Aboutus';
 }
 
-function Gotoview() {
-    window.location.href = '/ViewUsers';
+function Gotohome() {
+    window.location.href = '/';
 }
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
             <div className="top-line">
                 <button className="top-button" onClick={Gotoregister}>Registrar Usuários</button>
                 <button className="top-button" onClick={Gotoabout}>Sobre Nós</button>
-                <button className="top-button" onClick={Gotoview}>Visualizar Usuários</button>
+                <button className="top-button" onClick={Gotohome}>Início</button>
             </div>
             <div className="container">
                 <div className="logo">
