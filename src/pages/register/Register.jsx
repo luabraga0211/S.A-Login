@@ -12,7 +12,6 @@ function Gotohome() {
 const Register = () => {
 
     const [id, setId] = useState("");
-    const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
     const handleSubmit = (event) => {
@@ -31,17 +30,13 @@ const Register = () => {
             <h2>Registro de Usuario</h2>
             
             <div className="input-campo">
-            <input type="id" placeholder="Coloque o id para seu usuario"
+            <input type="id" placeholder="Coloque a sua Matrícula" 
             onChange={(e) => setId(e.target.value)} />
-            </div>
-            <div className="input-campo">
-            <input type="email" placeholder="Coloque o Email do usuario" 
-            onChange={(e) => setUsername(e.target.value)} />
             <FaUser className="icon" />
             </div>
             
             <div className="input-campo">
-            <input type="password" placeholder="Coloque a Senha para esse usuario utilizar"
+            <input type="password" placeholder="Coloque a Senha "
             onChange={(e) => setPassword(e.target.value)} />
             <FaLock className="icon" />
             </div>
