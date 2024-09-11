@@ -12,9 +12,8 @@ function Gotohome() {
 
 const LoginAdm = () => {
 
-    const [username, setUsername] = useState("");
-    const [password, setPassword] = useState("");
     const [id, setId] = useState("");
+    const [password, setPassword] = useState("");
 
 
     const handleSubmit = (event) => {
@@ -31,10 +30,7 @@ const LoginAdm = () => {
                 <h1>ATSoluctions</h1>
                 <h2>ADM</h2>
                 <div className="input-campo">
-                    <input type="id" placeholder="Coloque o seu ID" onChange={(e) => setId(e.target.value)} />
-                </div>
-                <div className="input-campo">
-                    <input type="email" placeholder="Coloque o seu Email" onChange={(e) => setUsername(e.target.value)} />
+                    <input type="id" placeholder="Coloque a sua Matrícula" onChange={(e) => setId(e.target.value)} />
                     <FaUser className="icon" />
                 </div>
                 <div className="input-campo">
