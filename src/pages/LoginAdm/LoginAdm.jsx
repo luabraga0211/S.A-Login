@@ -48,7 +48,7 @@ const LoginAdm = () => {
 
                 <button onClick={Gotohome}>Entrar</button>
                 <div className="signup-link">
-                    <p>Quer logar como Visitante? <span onClick={GotoLogin}>Login</span></p>
+                    <p>Quer logar como Funcionário? <span onClick={GotoLogin}>Login</span></p>
                 </div>
             </form>
         </div>
