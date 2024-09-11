@@ -10,6 +10,10 @@ function Gotohome() {
     window.location.href = '/'
 }
 
+function Gotohomeadm() {
+    window.location.href = '/Homeinicio';
+}
+
 const LoginAdm = () => {
 
     const [id, setId] = useState("");
@@ -46,7 +50,7 @@ const LoginAdm = () => {
                     <a href="">Esqueceu a senha</a>
                 </div>
 
-                <button onClick={Gotohome}>Entrar</button>
+                <button onClick={Gotohomeadm}>Entrar</button>
                 <div className="signup-link">
                     <p>Quer logar como Funcionário? <span onClick={GotoLogin}>Login</span></p>
                 </div>

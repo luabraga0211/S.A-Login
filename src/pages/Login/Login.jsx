@@ -7,7 +7,7 @@ function GotoLoginAdm() {
 }
 
 function Gotohome() {
-    window.location.href = '/'
+    window.location.href = '/Homeinicio'
 }
 
 const Login = () => {
@@ -29,7 +29,7 @@ const Login = () => {
                 <h1>ATSoluctions</h1>
                 <h2>Funcionario</h2> 
                 <div className="input-campo">
-                    <input type="email" placeholder="Coloque o seu Email" onChange={(e) => setUsername(e.target.value)} />
+                    <input type="email" placeholder="Coloque a sua Matrícula" onChange={(e) => setUsername(e.target.value)} />
                     <FaUser className="icon" />
                 </div>
                 <div className="input-campo">

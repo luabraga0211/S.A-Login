@@ -1,26 +1,30 @@
-import './home.css';
+import './vregister.css';
 import logo from './logo.png';
 import { Link } from 'react-router-dom'; // Certifique-se de importar o Link do react-router-dom
 
-function Gotoabout() {
-    window.location.href = '/Aboutus';
+function Gotoregister() {
+    window.location.href = '/Register';
+}
+
+function Gotoback() {
+    window.location.href = '/Homeinicio';
+}
+
+function Gotoctrl() {
+    window.location.href = '/Entradasaida';
 }
 
 
-function Gotologin() {
-    window.location.href = '/Login';
-}
 
 
 
-
-
-const Home = () => {
+const Vregister = () => {
     return (
         <div>
             <div className="top-line">
-                <button className="top-button" onClick={Gotoabout}>Sobre Nós</button>
-                <button className="top-button" onClick={Gotologin}>Fazer Login</button>
+                <button className="top-button" onClick={Gotoregister}>Fazer Novo Cadastro</button>
+                <button className="top-button" onClick={Gotoback}>Voltar</button>
+                <button className="top-button" onClick={Gotoctrl}>Controle de Entrada e Saída</button>    
             </div>
             <div className="container">
                 <div className="logo">
@@ -31,11 +35,11 @@ const Home = () => {
                 <div className="content">
                     <h1>ATSoluctions</h1> 
                     <br />
-                    <p>Registro de entrada e saída de Usuarios</p>
+                    <p>Pagina de Ver cadastros</p>
                 </div>
             </div>
         </div>
     );
 };
 
-export default Home;
+export default Vregister;

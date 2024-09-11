@@ -1,26 +1,30 @@
-import './home.css';
+import './homeinicio.css';
 import logo from './logo.png';
 import { Link } from 'react-router-dom'; // Certifique-se de importar o Link do react-router-dom
 
-function Gotoabout() {
-    window.location.href = '/Aboutus';
+function Gotoregister() {
+    window.location.href = '/Register';
+}
+
+function Gotoview() {
+    window.location.href = '/Vregister';
+}
+
+function Gotoctrl() {
+    window.location.href = '/Entradasaida';
 }
 
 
-function Gotologin() {
-    window.location.href = '/Login';
-}
 
 
 
-
-
-const Home = () => {
+const Homeinicio = () => {
     return (
         <div>
             <div className="top-line">
-                <button className="top-button" onClick={Gotoabout}>Sobre Nós</button>
-                <button className="top-button" onClick={Gotologin}>Fazer Login</button>
+                <button className="top-button" onClick={Gotoregister}>Fazer Novo Cadastro</button>
+                <button className="top-button" onClick={Gotoview}>Ver Cadastros</button>
+                <button className="top-button" onClick={Gotoctrl}>Controle Entrada e Saida</button>    
             </div>
             <div className="container">
                 <div className="logo">
@@ -38,4 +42,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Homeinicio;
