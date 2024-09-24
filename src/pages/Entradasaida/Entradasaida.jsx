@@ -29,7 +29,42 @@ const Entradasaida = () => {
             <div className="container">
                 <div className="content">
                     <h1>Controle de Entrada e Saida de Funcionarios</h1> 
-                    <br />                   
+                    <br /> 
+                    <br />
+                    <br />
+                    <br />
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br /> 
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />     
+                    <p>PLACEHOLDER 10/10/24 20:00</p>
+                    <br />                           
                 </div>
             </div>
         </div>
