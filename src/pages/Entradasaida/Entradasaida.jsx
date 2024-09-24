@@ -27,15 +27,9 @@ const Entradasaida = () => {
                 <button className="top-button" onClick={Gotoback}>Voltar</button>    
             </div>
             <div className="container">
-                <div className="logo">
-                    <Link to="/">
-                        <img src={logo} alt="Logo da Empresa" />
-                    </Link>
-                </div>
                 <div className="content">
-                    <h1>ATSoluctions</h1> 
-                    <br />
-                    <p>Pagina de entrada e saida</p>
+                    <h1>Registro de Entrada e Saida de Funcionarios</h1> 
+                    <br />                   
                 </div>
             </div>
         </div>
