@@ -1,6 +1,4 @@
 import './entradasaida.css';
-import logo from './logo.png';
-import { Link } from 'react-router-dom'; // Certifique-se de importar o Link do react-router-dom
 
 function Gotoregister() {
     window.location.href = '/Register';
@@ -13,10 +11,6 @@ function Gotoview() {
 function Gotoback() {
     window.location.href = '/Homeinicio';
 }
-
-
-
-
 
 const Entradasaida = () => {
     return (
