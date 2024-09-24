@@ -27,15 +27,31 @@ const Vregister = () => {
                 <button className="top-button" onClick={Gotoctrl}>Controle de Entrada e Saída</button>    
             </div>
             <div className="container">
-                <div className="logo">
-                    <Link to="/">
-                        <img src={logo} alt="Logo da Empresa" />
-                    </Link>
-                </div>
                 <div className="content">
-                    <h1>ATSoluctions</h1> 
+                    <h1>Ver Cadastros realizados.</h1> 
                     <br />
-                    <p>Pagina de Ver cadastros</p>
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
+                    <p>PLACEHOLDER</p>
+                    <br />
                 </div>
             </div>
         </div>

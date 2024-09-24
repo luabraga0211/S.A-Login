@@ -28,7 +28,7 @@ const Entradasaida = () => {
             </div>
             <div className="container">
                 <div className="content">
-                    <h1>Registro de Entrada e Saida de Funcionarios</h1> 
+                    <h1>Controle de Entrada e Saida de Funcionarios</h1> 
                     <br />                   
                 </div>
             </div>
