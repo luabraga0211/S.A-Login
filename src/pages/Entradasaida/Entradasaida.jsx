@@ -44,21 +44,7 @@ const Entradasaida = () => {
                     <p>PLACEHOLDER 10/10/24 20:00</p>
                     <br />     
                     <p>PLACEHOLDER 10/10/24 20:00</p>
-                    <br />     
-                    <p>PLACEHOLDER 10/10/24 20:00</p>
-                    <br />     
-                    <p>PLACEHOLDER 10/10/24 20:00</p>
-                    <br /> 
-                    <p>PLACEHOLDER 10/10/24 20:00</p>
-                    <br />     
-                    <p>PLACEHOLDER 10/10/24 20:00</p>
-                    <br />     
-                    <p>PLACEHOLDER 10/10/24 20:00</p>
-                    <br />     
-                    <p>PLACEHOLDER 10/10/24 20:00</p>
-                    <br />     
-                    <p>PLACEHOLDER 10/10/24 20:00</p>
-                    <br />                           
+                    <br />                    
                 </div>
             </div>
         </div>
