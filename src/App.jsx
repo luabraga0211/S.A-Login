@@ -26,12 +26,11 @@ function App() {
       <Route path='/Entradasaida' element={<Entradasaida />} />
       <Route path='/Vregister' element={<Vregister />} />
       <Route path='/Usuariocriado' element={<Usuariocriado />} />
-      
+
 
 
       </Routes>
       </BrowserRouter>
   )
 }
-
 export default App
